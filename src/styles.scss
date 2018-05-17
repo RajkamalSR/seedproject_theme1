@@ -1,0 +1,51 @@
+@import './assets/scss/normalize';
+@import './assets/scss/mixins';
+@import './assets/scss/variables';
+@import './assets/scss/header';
+@import './assets/scss/gridcontainer';
+@import './assets/scss/buttons';
+@import './assets/scss/icons';
+@import './assets/scss/boxpanels';
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    background: #f5f5f5;
+}
+
+a{
+    font-size: $font-size-sl;
+}
+
+.#{$prefix} {
+    @include element('element') {}
+    @include modifier('modifier') {}
+}
+
+.#{$align} {
+    @include element('block') {
+        @include modifier('center') {
+            display: table;
+            height: 100%;
+        }
+        @include modifier('elements') {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+   
+}
+
+[class^="column-"] {
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+@for $i from 1 through 24 {
+    .column-#{$i} {
+        width: 100% / 24 * $i;
+
+        // width:percentage(((100 / 24) * $i) - (15 * $i / 12)); 
+    }
+}

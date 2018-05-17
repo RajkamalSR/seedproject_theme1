@@ -1,0 +1,24 @@
+@import './assets/scss/mixins';
+@import './assets/scss/variables';
+
+
+.#{$header}{
+    // height:58px;
+    height: 36px;
+    @include element('theme') {
+        @include modifier('blue') {
+            background: $dark-blue;
+            color:$white;
+        }
+    }
+    @include element('subheader') {
+        height: 4.25em;
+    }
+}
+
+
+.#{$wrapper}{
+    @include element('main') {
+        // height:58px;
+    }
+}

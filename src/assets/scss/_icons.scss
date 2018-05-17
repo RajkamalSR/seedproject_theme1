@@ -1,0 +1,18 @@
+@import './assets/scss/mixins';
+@import './assets/scss/variables';
+@import './assets/scss/extends';
+
+.#{$scicon} {
+    @include element('element') {
+
+    }
+    @include modifier('middle') {
+        vertical-align: middle;
+    }
+
+    @include modifier('md') {
+        width: 30px;
+        font-size: 22px;
+        text-align: center;
+    }
+}

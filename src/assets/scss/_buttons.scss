@@ -1,0 +1,64 @@
+@import './assets/scss/mixins';
+@import './assets/scss/variables';
+
+
+.#{$btn}{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: $font-size-sl;
+    line-height: 1.42857143;
+    outline:none;
+    
+    @include border-radius(4px);
+    @include user-select(none);
+
+    // @include element('theme') {
+    //     @include modifier('white'){
+    //         background: $white;
+    //         color:$black;
+    //     }
+    // }
+
+    @include modifier('white'){
+        background: $white;
+        color:$black;
+    }
+
+    @include modifier('blue'){
+        background: $dark-blue;
+        color:$white;
+    }
+
+    @include modifier('light-red'){
+        background: $light-red;
+        color:$white;
+    }
+
+    @include modifier('green'){
+        background: $green;
+        color:$white;
+    }
+
+    @include modifier('orange-yellow'){
+        background: $orange-yellow;
+        color:$white;
+    }
+
+    @include modifier('transparent'){
+        background: transparent;
+        color:inherit;
+    }
+    @include modifier('icon'){
+       padding:0;
+    }
+}

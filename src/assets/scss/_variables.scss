@@ -1,0 +1,117 @@
+$prefix: block;
+$prefixscalya: sc;
+$header:header;
+$wrapper:wrapper;
+$s_container_fluid:s_container_fluid;
+$btn:btn;
+$boxpanel:boxpanel;
+$scicon:icon;
+$align:align;
+
+/**
+ * Font styles
+ */
+
+
+ $primary-font-default: 'Helvetica Neue, Helvetica, Arial, sans-serif';
+ $material-icons-font-size: 22px;
+ 
+ $font-size-default : 18px;
+ $font-size-xl: 40px;
+ $font-size-xs: 36px;
+ $font-size-ll: 32px;
+ $font-size-ls: 24px;
+ $font-size-ml: 18px;
+ $font-size-ms: 14px;
+ $font-size-sl: 12px;
+ $font-size-ss: 10px;
+ $font-size-sx: 8.5px;
+ 
+ $font-size-h1: 32px !important;
+ $font-size-h2: 24px !important;
+ $font-size-h3: 18px !important;
+ $font-size-h4: 12px !important;
+ $font-size-h5: 10px !important;
+ $font-size-h6: 8.5px !important;
+ 
+ /**
+  * Color Styles
+  */
+ 
+ $white: #fff;
+ $black-grey : #F0F0F0;
+ $black : #333333;
+ $dark-grey :#999999;
+ $light-grey-ac :#CACACA;
+ $light-grey-tb :#FAFAFA;
+ $bg-grey : #f5f5f5;
+ $grey-heading : #4a4a4a;
+ 
+ $red :#D0021B;
+ $light-red :#ED3E53;
+ $dark-red :#B94A48;
+ $light-red-notf :#F2DEDE;
+ 
+ $dark-blue :#19B5FE;
+ $dark-blue-notf :#3A87AD;
+ $light-blue :#D9EDF7;
+ $hover-blue :#E5EDF1;
+ 
+ $dark-yellow :#C09853;
+ $light-yellow :#FCF8E3;
+ $orange-yellow :#F5A623;
+ 
+ $green :#61C771;
+ $light-green :#DFF0D8;
+ 
+ 
+ /**
+  * Icon styles
+  */
+ 
+ $icon-red: #d0021b;
+ $icon-light-red: #ED3E53;
+ $icon-cyan:#0af;
+ $light-red:#b94a48;
+ $icon-blue: #004e70;
+ $icon-black: #000;
+ $icon-white: #fff;
+ $icon-green: #7ed321;
+ $icon-orange: #F5A623;
+ 
+ 
+ /**
+  * Badge styles
+  */
+ 
+ $badge-blue:#d7e8fb;
+ $badge-green:#cfeed4;
+ $badge-red:#fde8ea;
+ $badge-yellow:#fdf8ba;
+ 
+ 
+ /**
+  * Text color styles
+  */
+ 
+ $text-red : #ff0500;
+ 
+ /**
+  * Width styles
+  */
+ 
+ $container-max-width: 1760px;
+ $width-xs: 220px;
+ $width-sm: 300px;
+ $width-md: 340px;
+ $width-lg: 640px;
+ $material-icons-width: 30px;
+ 
+ /**
+  * Background styles
+  */
+ 
+ $bg-white: #fff;
+ $bg-light-blue: #fcfdff;
+ 
+ 
